@@ -1,0 +1,97 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header -------------------------------- */
+
+#banner {
+    /* div that houses img */
+    width: 100%;
+    overflow: hidden;
+    max-height: 415px;
+    /* controls the max height of banner */
+}
+
+#banner img {
+    width: 100%;
+    height: 40vh;
+    display: block;
+    object-fit: cover;
+    /* cover the container */
+}
+
+
+/* Main 
+------------------------------ */
+main {
+    flex: 1px;
+    padding: 20px 0;
+}
+
+card-group {
+    display: flex
+}
+
+#weathermain {
+    background-color: teal;
+    text-align: center;
+    margin-bottom: 15px;
+    color: antiquewhite;
+    display: flex;
+    border: black;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-radius: 15px;
+}
+
+#searchResults {
+    background-color: darkturquoise;
+    text-align: left;
+    margin-bottom: 25px;
+    border:color-mix(in hsl shorter hue, blue 15, color 15);
+    border-top: 10px;
+    border: darkslategray;
+    border-bottom: 10px;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+/* Footer 
+------------------------------ */
+footer {
+    background-color: #58a799;
+    text-align: center;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+/* Buttons & Link Styles 
+------------------------------ */
+a {
+    display: inline-block;
+    padding: 0px 0px;
+    margin: 0%;
+    background-color: transparent;
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Media Queries
+ ------------------------------ */
+/* < 750px */
+@media (max-width: 750px) {
+    body {
+        font-size: 0.75rem;
+    }
+
+}
+
+/* < 1024px */
+@media (max-width: 1024px) {
+    body {
+        font-size: 0.75rem;
+    }
+}
